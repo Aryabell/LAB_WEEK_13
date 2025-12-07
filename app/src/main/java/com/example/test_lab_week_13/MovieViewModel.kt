@@ -1,9 +1,11 @@
 package com.example.test_lab_week_13
 
+import androidx.databinding.BindingAdapter
 import androidx.lifecycle.ViewModel
 import com.example.test_lab_week_13.model.Movie
 import kotlinx.coroutines.Dispatchers
 import androidx.lifecycle.viewModelScope
+import androidx.recyclerview.widget.RecyclerView
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.catch
